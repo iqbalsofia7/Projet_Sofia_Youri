@@ -13,9 +13,21 @@
         box-shadow: -1px 1px 34px 0px rgba(0,0,0,0.32)
         -webkit-box-shadow: -1px 1px 34px 0px rgba(0,0,0,0.32)
         -moz-box-shadow: -1px 1px 34px 0px rgba(0,0,0,0.32)
+        &:hover .whiteAnim
+            color: white !important
+        
 .sec2
     margin-left: 10%
     margin-right: 10%
     display: flex
     flex-direction: column
     justify-content: center
+
+.anim2
+    display: block
+    background: linear-gradient( #ffffff 50%, #E53D5C 50%)
+    background-size: 100% 200%
+    transition: background 0.5s
+    width: 60px
+    &:hover
+        background-position: 100% 100%
