@@ -22865,7 +22865,29 @@ li {
 }
 
 .sec4 {
-  margin: 2%;
+  margin: 2% 0%;
+  background: linear-gradient(rgba(0, 0, 0, 0.551), rgba(0, 0, 0, 0.558)), url("../../public/img/cta-bg.jpg");
+  background-size: 100%;
+  background-position: center;
+  height: 300px;
+  display: flex;
+}
+
+.sec4-flex {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sec4-btn {
+  transition: 0.5s;
+}
+.sec4-btn:hover {
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
