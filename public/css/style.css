@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "Police";
-  src: url("../../public/fonts/Nom_Police.ttf");
+  font-family: "Poppins";
+  src: url("../../public/fonts/PoppinsMed.ttf");
 }
 /*!
  * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
@@ -10332,7 +10332,7 @@ readers do not read off random characters that represent icons */
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-blue: #268f96;
+  --bs-pink: #E43D5C;
   --bs-lightgreen: #87c985;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
@@ -10342,7 +10342,7 @@ readers do not read off random characters that represent icons */
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
-  --bs-blue-rgb: 38, 143, 150;
+  --bs-pink-rgb: 228, 61, 92;
   --bs-lightgreen-rgb: 135, 201, 133;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
@@ -13436,21 +13436,21 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #212529;
 }
 
-.btn-blue {
+.btn-pink {
   --bs-btn-color: #000;
-  --bs-btn-bg: #268f96;
-  --bs-btn-border-color: #268f96;
+  --bs-btn-bg: #E43D5C;
+  --bs-btn-border-color: #E43D5C;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #47a0a6;
-  --bs-btn-hover-border-color: #3c9aa1;
-  --bs-btn-focus-shadow-rgb: 32, 122, 128;
+  --bs-btn-hover-bg: #e85a74;
+  --bs-btn-hover-border-color: #e7506c;
+  --bs-btn-focus-shadow-rgb: 194, 52, 78;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #51a5ab;
-  --bs-btn-active-border-color: #3c9aa1;
+  --bs-btn-active-bg: #e9647d;
+  --bs-btn-active-border-color: #e7506c;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #268f96;
-  --bs-btn-disabled-border-color: #268f96;
+  --bs-btn-disabled-bg: #E43D5C;
+  --bs-btn-disabled-border-color: #E43D5C;
 }
 
 .btn-lightgreen {
@@ -13606,20 +13606,20 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
-.btn-outline-blue {
-  --bs-btn-color: #268f96;
-  --bs-btn-border-color: #268f96;
+.btn-outline-pink {
+  --bs-btn-color: #E43D5C;
+  --bs-btn-border-color: #E43D5C;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #268f96;
-  --bs-btn-hover-border-color: #268f96;
-  --bs-btn-focus-shadow-rgb: 38, 143, 150;
+  --bs-btn-hover-bg: #E43D5C;
+  --bs-btn-hover-border-color: #E43D5C;
+  --bs-btn-focus-shadow-rgb: 228, 61, 92;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #268f96;
-  --bs-btn-active-border-color: #268f96;
+  --bs-btn-active-bg: #E43D5C;
+  --bs-btn-active-border-color: #E43D5C;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #268f96;
+  --bs-btn-disabled-color: #E43D5C;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #268f96;
+  --bs-btn-disabled-border-color: #E43D5C;
   --bs-gradient: none;
 }
 
@@ -15252,13 +15252,13 @@ textarea.form-control-lg {
   color: #101214;
 }
 
-.alert-blue {
-  --bs-alert-color: #17565a;
-  --bs-alert-bg: #d4e9ea;
-  --bs-alert-border-color: #bedde0;
+.alert-pink {
+  --bs-alert-color: #892537;
+  --bs-alert-bg: #fad8de;
+  --bs-alert-border-color: #f7c5ce;
 }
-.alert-blue .alert-link {
-  color: #124548;
+.alert-pink .alert-link {
+  color: #6e1e2c;
 }
 
 .alert-lightgreen {
@@ -15674,18 +15674,18 @@ textarea.form-control-lg {
   border-color: #141619;
 }
 
-.list-group-item-blue {
-  color: #17565a;
-  background-color: #d4e9ea;
+.list-group-item-pink {
+  color: #892537;
+  background-color: #fad8de;
 }
-.list-group-item-blue.list-group-item-action:hover, .list-group-item-blue.list-group-item-action:focus {
-  color: #17565a;
-  background-color: #bfd2d3;
+.list-group-item-pink.list-group-item-action:hover, .list-group-item-pink.list-group-item-action:focus {
+  color: #892537;
+  background-color: #e1c2c8;
 }
-.list-group-item-blue.list-group-item-action.active {
+.list-group-item-pink.list-group-item-action.active {
   color: #fff;
-  background-color: #17565a;
-  border-color: #17565a;
+  background-color: #892537;
+  border-color: #892537;
 }
 
 .list-group-item-lightgreen {
@@ -17258,9 +17258,9 @@ textarea.form-control-lg {
   background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;
 }
 
-.text-bg-blue {
+.text-bg-pink {
   color: #000 !important;
-  background-color: RGBA(38, 143, 150, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(228, 61, 92, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-lightgreen {
@@ -17324,11 +17324,11 @@ textarea.form-control-lg {
   color: #1a1e21 !important;
 }
 
-.link-blue {
-  color: #268f96 !important;
+.link-pink {
+  color: #E43D5C !important;
 }
-.link-blue:hover, .link-blue:focus {
-  color: #51a5ab !important;
+.link-pink:hover, .link-pink:focus {
+  color: #e9647d !important;
 }
 
 .link-lightgreen {
@@ -17799,9 +17799,9 @@ textarea.form-control-lg {
   border-color: rgba(var(--bs-dark-rgb), var(--bs-border-opacity)) !important;
 }
 
-.border-blue {
+.border-pink {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-blue-rgb), var(--bs-border-opacity)) !important;
+  border-color: rgba(var(--bs-pink-rgb), var(--bs-border-opacity)) !important;
 }
 
 .border-lightgreen {
@@ -18927,9 +18927,9 @@ textarea.form-control-lg {
   color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-blue {
+.text-pink {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-blue-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-pink-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-lightgreen {
@@ -19028,9 +19028,9 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-blue {
+.bg-pink {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-blue-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-pink-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-lightgreen {
