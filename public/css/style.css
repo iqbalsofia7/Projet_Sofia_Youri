@@ -22696,6 +22696,9 @@ textarea.form-control-lg {
   border: 2px solid #E43D5C;
   border-radius: 10px;
 }
+.sec5 .card .position sup {
+  padding-bottom: 50px;
+}
 
 .sec6 .badge {
   background-color: #FCEEF2;
@@ -22711,6 +22714,16 @@ textarea.form-control-lg {
 }
 .sec6 .card .worker_position {
   font-size: 12px;
+}
+
+.sec7 .badge {
+  background-color: #FCEEF2;
+}
+.sec7 iframe {
+  max-width: 1200px;
+  max-height: 250px;
+  width: 100%;
+  height: 100vw;
 }
 
 * {
