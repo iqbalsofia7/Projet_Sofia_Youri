@@ -22792,7 +22792,22 @@ li {
   border: 2px solid #000000;
 }
 
+.sec1-flex {
+  display: flex;
+}
+
+.mqtexts1 {
+  width: 100%;
+}
+
 @media (min-width: 320px) and (max-width: 600px) {
+  .mqtexts1 {
+    width: 100%;
+  }
+  .sec1-flex {
+    display: block;
+    margin: auto;
+  }
   .mqtext {
     display: none;
   }
@@ -22838,11 +22853,13 @@ li {
 
 @media (min-width: 600px) and (max-width: 1024px) {
   .sec2grid {
-    display: flex;
-    flex-direction: column;
-    gap: 15%;
+    display: grid;
+    grid-template-columns: 90vw;
+    grid-template-rows: 200px;
+    gap: 10px;
     justify-content: center;
     margin: auto;
+    padding-bottom: 20%;
   }
   .sec2grid div {
     padding: 1% 2%;
@@ -22856,9 +22873,11 @@ li {
 }
 @media (min-width: 320px) and (max-width: 600px) {
   .sec2grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: 100;
     flex-direction: column;
-    gap: 15%;
+    gap: 10px;
     justify-content: center;
     margin: auto;
   }
@@ -22937,11 +22956,12 @@ li {
 
 @media (min-width: 600px) and (max-width: 1024px) {
   .sec3grid {
-    display: flex;
+    display: inline-block;
     grid-template-columns: repeat(4, 24%);
     grid-template-rows: 80px;
     align-items: center;
     justify-content: center;
+    display: none;
   }
   .sec3grid div {
     align-content: center;
