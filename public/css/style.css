@@ -22856,10 +22856,10 @@ li {
     display: grid;
     grid-template-columns: 90vw;
     grid-template-rows: 200px;
-    gap: 10px;
+    gap: 5px;
     justify-content: center;
     margin: auto;
-    padding-bottom: 20%;
+    padding-bottom: 2%;
   }
   .sec2grid div {
     padding: 1% 2%;
@@ -22877,7 +22877,7 @@ li {
     grid-template-columns: 80vw;
     grid-template-rows: 100;
     flex-direction: column;
-    gap: 10px;
+    gap: 2px;
     justify-content: center;
     margin: auto;
   }
@@ -22999,6 +22999,7 @@ li {
     justify-content: center;
     width: 35VW;
     margin: auto;
+    font-size: smaller;
   }
 }
 .sec4 {
