@@ -22752,6 +22752,7 @@ li {
 
 .sec1 {
   margin: 2% 10%;
+  display: block;
 }
 
 .badgeAbout {
@@ -22791,6 +22792,11 @@ li {
   border: 2px solid #000000;
 }
 
+@media (min-width: 320px) and (max-width: 600px) {
+  .mqtext {
+    display: none;
+  }
+}
 .sec2grid {
   display: grid;
   grid-template-columns: repeat(4, 50%);
@@ -22830,6 +22836,42 @@ li {
   background-position: 100% 100%;
 }
 
+@media (min-width: 600px) and (max-width: 1024px) {
+  .sec2grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+    justify-content: center;
+    margin: auto;
+  }
+  .sec2grid div {
+    padding: 1% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+    margin: 4% 0%;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .sec2grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+    justify-content: center;
+    margin: auto;
+  }
+  .sec2grid div {
+    padding: 1% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+    margin: 4% 0%;
+  }
+}
 .sec3grid {
   display: grid;
   grid-template-columns: repeat(4, 24%);
@@ -22893,6 +22935,25 @@ li {
   color: #ea2b2b;
 }
 
+@media (min-width: 600px) and (max-width: 1024px) {
+  .sec3grid {
+    display: flex;
+    grid-template-columns: repeat(4, 24%);
+    grid-template-rows: 80px;
+    align-items: center;
+    justify-content: center;
+  }
+  .sec3grid div {
+    align-content: center;
+    background-color: #ffffff;
+    padding: 2% 2%;
+    margin: 4% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50VW;
+  }
+}
 .sec4 {
   margin: 0% 0% 2% 0%;
   background: linear-gradient(rgba(0, 0, 0, 0.551), rgba(0, 0, 0, 0.558)), url("../../public/img/cta-bg.jpg");
