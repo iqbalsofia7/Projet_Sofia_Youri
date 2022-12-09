@@ -22792,7 +22792,36 @@ section {
   align-items: center;
   justify-content: center;
   width: 200px;
-  background-color: rgba(0, 0, 0, 0.3647058824);
+  box-shadow: -1px 1px 34px 0px rgba(0, 0, 0, 0.32);
+  -webkit-box-shadow: -1px 1px 34px 0px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: -1px 1px 34px 0px rgba(0, 0, 0, 0.32);
+}
+
+.sec3grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 50px;
+  align-items: center;
+}
+.sec3grid div {
+  background-color: rgba(113, 113, 113, 0.3254901961);
+  padding: 4% 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  box-shadow: -1px 1px 34px 0px rgba(0, 0, 0, 0.32);
+  -webkit-box-shadow: -1px 1px 34px 0px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: -1px 1px 34px 0px rgba(0, 0, 0, 0.32);
+}
+
+.sec3iconBadge {
+  display: flex;
+  align-items: center;
+}
+
+.sec3 {
+  margin: 2% 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
