@@ -22808,11 +22808,13 @@ li {
 
 .sec3grid {
   display: grid;
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(4, 24%);
   grid-template-rows: 80px;
   align-items: center;
+  justify-content: center;
 }
 .sec3grid div {
+  align-content: center;
   background-color: #ffffff;
   padding: 2% 2%;
   margin: 4% 2%;
@@ -22865,7 +22867,7 @@ li {
 }
 
 .sec4 {
-  margin: 2% 0%;
+  margin: 0% 0% 2% 0%;
   background: linear-gradient(rgba(0, 0, 0, 0.551), rgba(0, 0, 0, 0.558)), url("../../public/img/cta-bg.jpg");
   background-size: 100%;
   background-position: center;
