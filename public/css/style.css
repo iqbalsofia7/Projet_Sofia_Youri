@@ -22739,7 +22739,7 @@ li {
   color: white;
 }
 
-section {
+.sec1 {
   margin: 2% 10%;
 }
 
@@ -22797,15 +22797,21 @@ section {
   -moz-box-shadow: -1px 1px 34px 0px rgba(0, 0, 0, 0.32);
 }
 
+.sec2 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .sec3grid {
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  grid-template-rows: 50px;
+  grid-template-rows: 80px;
   align-items: center;
 }
 .sec3grid div {
-  background-color: rgba(113, 113, 113, 0.3254901961);
-  padding: 4% 2%;
+  background-color: #ffffff;
+  padding: 2% 2%;
+  margin: 4% 2%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22821,7 +22827,8 @@ section {
 }
 
 .sec3 {
-  margin: 2% 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
