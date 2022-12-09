@@ -22956,7 +22956,7 @@ li {
 
 @media (min-width: 600px) and (max-width: 1024px) {
   .sec3grid {
-    display: inline-block;
+    display: grid;
     grid-template-columns: repeat(4, 24%);
     grid-template-rows: 80px;
     align-items: center;
@@ -22972,6 +22972,28 @@ li {
     align-items: center;
     justify-content: center;
     width: 50VW;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .sec3grid {
+    display: grid;
+    grid-template-columns: 25vw 25vw;
+    grid-template-rows: 80px;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    margin: auto;
+  }
+  .sec3grid div {
+    align-content: center;
+    background-color: #ffffff;
+    padding: 2% 2%;
+    margin: 1% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35VW;
+    margin: auto;
   }
 }
 .sec4 {
