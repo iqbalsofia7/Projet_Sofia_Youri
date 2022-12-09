@@ -22706,6 +22706,12 @@ textarea.form-control-lg {
   -webkit-box-shadow: 1px 1px 9px 0px rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 1px 1px 9px 0px rgba(0, 0, 0, 0.19);
 }
+.sec6 .card .name_worker {
+  font-size: 14px;
+}
+.sec6 .card .worker_position {
+  font-size: 12px;
+}
 
 * {
   margin: 0;
