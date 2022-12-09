@@ -22831,6 +22831,9 @@ li {
   display: flex;
   align-items: center;
 }
+.sec3iconBadge:hover {
+  color: #E53D5C;
+}
 
 .sec3 {
   margin-left: 10%;
@@ -22889,7 +22892,7 @@ li {
   transition: 0.5s;
 }
 .sec4-btn:hover {
-  background-color: black;
+  background-color: #E53D5C;
 }
 
 /*# sourceMappingURL=style.css.map */
