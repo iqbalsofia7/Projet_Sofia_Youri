@@ -22801,6 +22801,9 @@ li {
 .sec2 {
   margin-left: 10%;
   margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .sec3grid {
