@@ -22784,6 +22784,7 @@ li {
   display: grid;
   grid-template-columns: repeat(4, 50%);
   grid-template-rows: 200px;
+  align-self: center;
 }
 .sec2grid div {
   padding: 4% 2%;
@@ -22829,6 +22830,35 @@ li {
 .sec3 {
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 2%;
+}
+
+.fa-shop, .fa-basketball {
+  color: #bbcc1d;
+}
+
+.fa-chart-column, .fa-coins, .fa-file {
+  color: #2761d3;
+}
+
+.fa-calendar-days {
+  color: #f34;
+}
+
+.fa-paint-roller, .fa-circle-dot {
+  color: #912bea;
+}
+
+.fa-bullseye {
+  color: #6eea2b;
+}
+
+.fa-network-wired, .fa-house-user {
+  color: #2bd7ea;
+}
+
+.fa-anchor {
+  color: #ea2b2b;
 }
 
 /*# sourceMappingURL=style.css.map */
