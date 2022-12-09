@@ -22672,5 +22672,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  font-family: Poppins;
+}
 
 /*# sourceMappingURL=style.css.map */
