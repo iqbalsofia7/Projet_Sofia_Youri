@@ -19,9 +19,10 @@
 
     .card
         position: relative
+        width: 18rem
         .overlay
             position: absolute
-            bottom: 25%
+            bottom: 20%
             background-color: white
             opacity: 0.7
             overflow: hidden
@@ -32,12 +33,79 @@
             color: red
     .card:hover .overlay
         height: 10%
-        
+
 .sec6
-@media (min-width: 375px) and (max-width: 424px)
-    .sec6_top_text_media_queries
-        p
-            font-size: 14px
+    @media (min-width: 374px) and (max-width: 424px)
+        .sec6_top_text_media_queries
+            p
+                font-size: 14px
+        .sec6_cards_media_queries
+            align-items: center
+            flex-direction: column
+        
+        .card
+            width: 100%    
+            .overlay
+                top: 68% 
+
+.sec6
+    @media (min-width: 425px) and (max-width: 767px)
+        .sec6_top_text_media_queries
+            p
+                font-size: 14px
     .sec6_cards_media_queries
         align-items: center
         flex-direction: column
+
+    .card
+            width: 100%    
+            .overlay
+                bottom: 20% 
+
+.sec6
+    @media (min-width: 768px) and (max-width: 1023px)
+        .sec6_top_text_media_queries
+            p
+                font-size: 18px
+
+        .sec6_cards_media_queries
+            align-items: center
+            flex-direction: column
+            .card
+                width: 60%
+        .card
+            width: 100%    
+            .overlay
+                bottom: 20% 
+
+.sec6
+    @media (min-width: 1024px) and (max-width: 1439px)
+        .sec6_top_text_media_queries
+            p
+                font-size: 18px
+
+        .sec6_cards_media_queries
+            align-items: center
+            flex-direction: row
+
+        .card
+            width: 100%    
+            .overlay
+                bottom: 33% 
+            
+.sec6
+    @media (min-width: 1440px)
+        .sec6_cards_media_queries
+            flex-direction: row
+            
+        .sec6_top_text_media_queries
+            p
+                font-size: 24px
+        
+        .card
+            width: 100%    
+            .overlay
+                bottom: 23% 
+        
+            
+        

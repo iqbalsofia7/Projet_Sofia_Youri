@@ -7,12 +7,10 @@
         font-size: 12px
     ul
         list-style-type: none
-
     p
         font-size: 12px
     .addres
         width: 21%
-
         h3
             font-size: 22px
             margin-right: 50px
@@ -26,7 +24,6 @@
         li
             margin: 20px 0
     .newsletter
-
         p
             font-size: 14px
         button
@@ -41,21 +38,19 @@
             width: 100%
         .input_button
             display: flex
-            align-items: center
             position: absolute
 
 .copyright
     background-color: #F6F4F4
     padding: 2% 0 2% 10%
     display: flex
-
     .footer_socials
         background-color: #e64c68
         padding: 10px
         border: none
         border-radius: 50%
     .positioning_socials
-        margin-left: 600px
+        text-align: end
         margin-top: 20px
     .footer_socials:hover
         background-color: #E43D5C
@@ -67,8 +62,9 @@
             padding: 15px 18px
 
 .footer
-    @media (min-width: 375px) and (max-width: 424px)
-        flex-direction: column    
+    @media (min-width: 375px) and (max-width: 767px)
+        flex-direction: column
+        align-items: center
         .addres
             text-align: center
             width: 100%
@@ -83,7 +79,6 @@
                 margin-left: 25%
         .newsletter
             text-align: center
-
         .newsletter
             .input_button
                 position: static
@@ -96,18 +91,153 @@
                 margin-left: 0px
                 margin-top: 10px
 
-        .socials_media_queries
-            .socials_media_queries
-                flex-direction: column
-                font-size: 12px
-                margin-left: 0px
+.copyright
+    @media (min-width: 375px) and (max-width: 767px)
 
-            .footer_socials
-                padding: 8px
-                font-size: 12px
+        display: block
+    .positioning_socials
+        text-align: start
+        display: block
+    .footer_socials
+        padding: 8px
+        font-size: 12px
+    .arrow_top
+        .arrow
+            padding: 12px 15px
 
-.footer        
+.footer
     @media (min-width: 425px) and (max-width: 767px)
-        .links, .service
+        .links
+            ul
+                width: 270px
+                margin: auto
+        .services
+            ul
+                width: 240px
+                margin: auto
+.footer
+    @media (min-width: 768px) and (max-width: 1023px)
+        flex-direction: column
+        align-items: center
+        .addres
+            text-align: center
+            width: 100%
+            h3
+                margin-right: 0
+        .links, .services
+            margin-top: 10px
+            width: 100%
+            h3
+                text-align: center
+        .links
+            ul
+                width: 200px
+                margin: auto
+        .services
+            ul
+                width: 180px
+                margin: auto
+        .newsletter
+            text-align: center
+        .newsletter
+            .input_button
+                position: static
+                display: flex
+                flex-direction: column-reverse
+            button
+                position: static
+                border: none
+                background-color: #E43D5C
+                width: 40%
+                margin: 10px auto 0 auto
+.copyright
+    @media (min-width: 768px) and (max-width: 1023px)
+        display: block
+        .positioning_socials
+            text-align: center
+            display: block
+        .footer_socials
+            padding: 12px
+            font-size: 14px
+        .arrow_top
+            .arrow
+                padding: 12px 15px
+
+.footer
+    @media (min-width: 1024px) and (max-width: 1439px)
+        flex-direction: row
+        .addres
+            width: 100%
+            flex-wrap: wrap
+            h3
+                margin-right: 0
+                font-size: 1.3em
+            p
+                font-size: 1.2em
+        .links, .services
+            margin-top: 10px
+            width: 100%
+            flex-wrap: wrap
+            h3
+                font-size: 1.3em
             li
-                margin-left: 40%
+                font-size: 1.1em
+        .newsletter
+            h3, p
+                text-align: center
+            .input_button
+                position: static
+                display: flex
+                flex-direction: column-reverse
+                align-items: center
+
+            button
+                position: static
+                border: none
+                background-color: #E43D5C
+                display: block
+                margin: 10px auto 0 auto
+            input
+                width: 100%
+
+.copyright
+    @media (min-width: 1024px) and (max-width: 1439px)
+        display: block
+        .positioning_socials
+            text-align: center
+            display: block
+        .footer_socials
+            padding: 12px
+            font-size: 14px
+        .arrow_top
+            .arrow
+                padding: 12px 15px
+
+.footer
+    @media (min-width: 1440px) and (max-width: 1600px)
+        .newsletter
+            .input_button
+                position: absolute
+                align-items: center
+                width: 50%
+                right: 230px
+
+            button
+                position: relative
+                left: 475px
+                border: none
+                background-color: #E43D5C
+.copyright
+    @media (min-width: 1440px) and (max-width: 1500px)
+        display: flex
+        justify-content: space-between
+        .positioning_socials
+            display: block
+            margin: auto 150px auto 0
+        .footer_socials
+            padding: 18px
+            font-size: 24px
+        .arrow_top
+            .arrow
+                padding: 15px 18px
+                font-size: 24px
