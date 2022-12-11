@@ -1,0 +1,88 @@
+.sec3grid
+    display: grid
+    grid-template-columns: repeat(4, 21%)
+    grid-template-rows: 80px
+    align-self: center
+    align-items: center
+    justify-content: center
+    gap: 10px
+    div
+        align-content: center
+        background-color: #ffffff
+        padding: 2% 2%
+        margin: 4% 0%
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 200px
+        box-shadow: -1px 1px 34px 0px rgba(0,0,0,0.32)
+        -webkit-box-shadow: -1px 1px 34px 0px rgba(0,0,0,0.32)
+        -moz-box-shadow: -1px 1px 34px 0px rgba(0,0,0,0.32)
+.sec3iconBadge
+    display: flex
+    align-items: center
+    &:hover
+        color: #E53D5C
+
+.sec3
+    margin-left: 10%
+    margin-right: 10%
+    margin-bottom: 2%
+
+.fa-shop, .fa-basketball
+    color: #bbcc1d
+.fa-chart-column, .fa-coins, .fa-file
+    color: #2761d3
+.fa-calendar-days
+    color: #f34
+.fa-paint-roller, .fa-circle-dot
+    color: #912bea
+.fa-bullseye
+    color: #6eea2b
+.fa-network-wired, .fa-house-user
+    color: #2bd7ea
+.fa-anchor
+    color: #ea2b2b
+
+@media (min-width: 600px) and (max-width: 1024px)
+    .sec3grid
+        display: grid
+        grid-template-columns: 23vw 23vw 23vw
+        grid-template-rows: 80px
+        flex-direction: column
+        gap: 50px
+        justify-content: center
+        margin: auto
+        div
+            align-content: center
+            background-color: #ffffff
+            padding: 2% 2%
+            margin: 1% 4%
+            display: flex
+            align-items: center
+            justify-content: center
+            width: 25VW
+            margin: auto
+    .sec3
+        margin-top: 2% 0%
+
+@media (min-width: 320px) and (max-width: 600px)
+    .sec3grid
+        display: grid
+        grid-template-columns: 25vw 25vw
+        grid-template-rows: repeat(6, 50px)
+        justify-content: space-around
+        margin: auto
+        gap: 20px
+        margin-right: 10%
+        div
+            align-content: center
+            background-color: #ffffff
+            padding: 2% 2%
+            margin: 1% 8%
+            display: flex
+            align-items: center
+            justify-content: center
+            width: 35VW
+            margin: auto
+            font-size: smaller

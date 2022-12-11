@@ -1,1 +1,50 @@
 //Style de la SECTION 1
+.sec1
+    margin: 2% 10%
+    display: block
+.badgeAbout
+    background-color: #FCEEF2
+    width: 100px
+    margin: auto
+    color: #E53D5C
+    display: flex
+    justify-content: center
+
+.sec1-flex
+    display: grid
+    gap: 20px
+    grid-template-columns: 50% 50%
+    grid-template-rows: 280px
+    padding: 2%
+    div
+        padding-top: 2%
+        font-size: smaller
+        height: auto
+.fa-check-double
+    color: #E53D5C
+.boutonSec1
+    transition: 0.5
+    color: #E53D5C
+    border: 2px solid #E53D5C
+    &:hover
+        background-color: black
+        color: white
+        border: 2px solid #000000
+.sec1-flex
+    display: flex
+    justify-content: center
+.mqtexts1
+    width: 100%
+
+@media (min-width: 320px) and (max-width: 600px)
+    .mqtexts1
+        width: 100%
+    .sec1-flex
+        display: block
+        margin: auto
+    .mqtext
+        width: 85vw !important
+        display: flex !important
+        justify-content: center !important
+        margin: auto !important
+

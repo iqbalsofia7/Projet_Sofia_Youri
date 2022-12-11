@@ -1,0 +1,71 @@
+.sec2grid
+    display: grid
+    grid-template-columns: repeat(4, 25%)
+    gap: 14PX
+    grid-template-rows: 200px
+    align-items: center
+    justify-content: center
+    align-self: center
+    div
+        padding: 4% 2%
+        margin: 4% 0%
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        width: 200px
+        box-shadow: -1px 1px 34px 0px rgba(0,0,0,0.32)
+        -webkit-box-shadow: -1px 1px 34px 0px rgba(0,0,0,0.32)
+        -moz-box-shadow: -1px 1px 34px 0px rgba(0,0,0,0.32)
+        &:hover .whiteAnim
+            color: white !important
+        
+.sec2
+    margin-left: 10%
+    margin-right: 10%
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+.anim2
+    display: block
+    background: linear-gradient( #ffffff 50%, #E53D5C 50%)
+    background-size: 100% 200%
+    transition: background 0.5s
+    &:hover
+        background-position: 100% 100%
+
+@media (min-width: 600px) and (max-width: 1024px)
+    .sec2grid
+        display: grid
+        grid-template-columns: 80vw
+        grid-template-rows: 200px
+        gap: 5px
+        justify-content: center
+        padding-bottom: 2%
+        div
+            padding: 1% 2%
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            width: 75vw
+            margin: 2% 0%
+
+@media (min-width: 320px) and (max-width: 600px)
+    .sec2grid
+        display: grid
+        grid-template-columns: 80vw
+        grid-template-rows: 150PX
+        flex-direction: column
+        gap: 5px
+        justify-content: center
+        margin: auto
+        div
+            padding: 1% 2%
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            width: 75vw
+            margin: 4% 0%
