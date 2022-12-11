@@ -22750,8 +22750,24 @@ li {
   background-size: 100% 2px;
 }
 
+@media (min-width: 320px) and (max-width: 600px) {
+  .nav {
+    background-color: #000000 !important;
+    position: static !important;
+  }
+  .nav .mg {
+    display: none !important;
+  }
+  .nav ul {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    gap: 5px !important;
+  }
+}
 .sec1 {
   margin: 2% 10%;
+  display: block;
 }
 
 .badgeAbout {
@@ -22791,14 +22807,42 @@ li {
   border: 2px solid #000000;
 }
 
+.sec1-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.mqtexts1 {
+  width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  .mqtexts1 {
+    width: 100%;
+  }
+  .sec1-flex {
+    display: block;
+    margin: auto;
+  }
+  .mqtext {
+    width: 85vw !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin: auto !important;
+  }
+}
 .sec2grid {
   display: grid;
-  grid-template-columns: repeat(4, 50%);
+  grid-template-columns: repeat(4, 25%);
+  gap: 14PX;
   grid-template-rows: 200px;
+  align-items: center;
+  justify-content: center;
   align-self: center;
 }
 .sec2grid div {
   padding: 4% 2%;
+  margin: 4% 0%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22830,18 +22874,59 @@ li {
   background-position: 100% 100%;
 }
 
+@media (min-width: 600px) and (max-width: 1024px) {
+  .sec2grid {
+    display: grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: 200px;
+    gap: 5px;
+    justify-content: center;
+    padding-bottom: 2%;
+  }
+  .sec2grid div {
+    padding: 1% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+    margin: 2% 0%;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .sec2grid {
+    display: grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: 150PX;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    margin: auto;
+  }
+  .sec2grid div {
+    padding: 1% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+    margin: 4% 0%;
+  }
+}
 .sec3grid {
   display: grid;
-  grid-template-columns: repeat(4, 24%);
+  grid-template-columns: repeat(4, 21%);
   grid-template-rows: 80px;
+  align-self: center;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
 .sec3grid div {
   align-content: center;
   background-color: #ffffff;
   padding: 2% 2%;
-  margin: 4% 2%;
+  margin: 4% 0%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22893,6 +22978,54 @@ li {
   color: #ea2b2b;
 }
 
+@media (min-width: 600px) and (max-width: 1024px) {
+  .sec3grid {
+    display: grid;
+    grid-template-columns: 23vw 23vw 23vw;
+    grid-template-rows: 80px;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    margin: auto;
+  }
+  .sec3grid div {
+    align-content: center;
+    background-color: #ffffff;
+    padding: 2% 2%;
+    margin: 1% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25VW;
+    margin: auto;
+  }
+  .sec3 {
+    margin-top: 2% 0%;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .sec3grid {
+    display: grid;
+    grid-template-columns: 25vw 25vw;
+    grid-template-rows: repeat(6, 50px);
+    justify-content: space-around;
+    margin: auto;
+    gap: 20px;
+    margin-right: 10%;
+  }
+  .sec3grid div {
+    align-content: center;
+    background-color: #ffffff;
+    padding: 2% 2%;
+    margin: 1% 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35VW;
+    margin: auto;
+    font-size: smaller;
+  }
+}
 .sec4 {
   margin: 0% 0% 2% 0%;
   background: linear-gradient(rgba(0, 0, 0, 0.551), rgba(0, 0, 0, 0.558)), url("../../public/img/cta-bg.jpg");
