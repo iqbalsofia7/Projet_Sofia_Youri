@@ -1,10 +1,14 @@
 .sec2grid
     display: grid
-    grid-template-columns: repeat(4, 50%)
+    grid-template-columns: repeat(4, 25%)
+    gap: 14PX
     grid-template-rows: 200px
+    align-items: center
+    justify-content: center
     align-self: center
     div
         padding: 4% 2%
+        margin: 4% 0%
         display: flex
         flex-direction: column
         align-items: center
@@ -34,11 +38,10 @@
 @media (min-width: 600px) and (max-width: 1024px)
     .sec2grid
         display: grid
-        grid-template-columns: 90vw
+        grid-template-columns: 80vw
         grid-template-rows: 200px
         gap: 5px
         justify-content: center
-        margin: auto
         padding-bottom: 2%
         div
             padding: 1% 2%
@@ -47,15 +50,15 @@
             align-items: center
             justify-content: center
             width: 75vw
-            margin: 4% 0%
+            margin: 2% 0%
 
 @media (min-width: 320px) and (max-width: 600px)
     .sec2grid
         display: grid
         grid-template-columns: 80vw
-        grid-template-rows: 100
+        grid-template-rows: 150PX
         flex-direction: column
-        gap: 2px
+        gap: 5px
         justify-content: center
         margin: auto
         div

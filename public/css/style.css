@@ -22750,6 +22750,21 @@ li {
   background-size: 100% 2px;
 }
 
+@media (min-width: 320px) and (max-width: 600px) {
+  .nav {
+    background-color: #000000 !important;
+    position: static !important;
+  }
+  .nav .mg {
+    display: none !important;
+  }
+  .nav ul {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    gap: 5px !important;
+  }
+}
 .sec1 {
   margin: 2% 10%;
   display: block;
@@ -22794,6 +22809,7 @@ li {
 
 .sec1-flex {
   display: flex;
+  justify-content: center;
 }
 
 .mqtexts1 {
@@ -22809,17 +22825,24 @@ li {
     margin: auto;
   }
   .mqtext {
-    display: none;
+    width: 85vw !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin: auto !important;
   }
 }
 .sec2grid {
   display: grid;
-  grid-template-columns: repeat(4, 50%);
+  grid-template-columns: repeat(4, 25%);
+  gap: 14PX;
   grid-template-rows: 200px;
+  align-items: center;
+  justify-content: center;
   align-self: center;
 }
 .sec2grid div {
   padding: 4% 2%;
+  margin: 4% 0%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22854,11 +22877,10 @@ li {
 @media (min-width: 600px) and (max-width: 1024px) {
   .sec2grid {
     display: grid;
-    grid-template-columns: 90vw;
+    grid-template-columns: 80vw;
     grid-template-rows: 200px;
     gap: 5px;
     justify-content: center;
-    margin: auto;
     padding-bottom: 2%;
   }
   .sec2grid div {
@@ -22868,16 +22890,16 @@ li {
     align-items: center;
     justify-content: center;
     width: 75vw;
-    margin: 4% 0%;
+    margin: 2% 0%;
   }
 }
 @media (min-width: 320px) and (max-width: 600px) {
   .sec2grid {
     display: grid;
     grid-template-columns: 80vw;
-    grid-template-rows: 100;
+    grid-template-rows: 150PX;
     flex-direction: column;
-    gap: 2px;
+    gap: 5px;
     justify-content: center;
     margin: auto;
   }
@@ -22893,16 +22915,18 @@ li {
 }
 .sec3grid {
   display: grid;
-  grid-template-columns: repeat(4, 24%);
+  grid-template-columns: repeat(4, 21%);
   grid-template-rows: 80px;
+  align-self: center;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
 .sec3grid div {
   align-content: center;
   background-color: #ffffff;
   padding: 2% 2%;
-  margin: 4% 2%;
+  margin: 4% 0%;
   display: flex;
   align-items: center;
   justify-content: center;
