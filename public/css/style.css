@@ -23234,12 +23234,13 @@ textarea.form-control-lg {
 .sec8 .sec8_flexbox_social {
   display: flex;
   margin: 30px 0;
+  line-height: 24px;
 }
 .sec8 .sec8_flexbox_social .bigger_margin {
   margin: 40px 0;
 }
 .sec8 .sec8_flexbox_social_second {
-  font-size: 12px;
+  font-size: 16px;
 }
 .sec8 .input_50_first, .sec8 .input_50_second {
   height: 40px;
@@ -23335,6 +23336,9 @@ textarea.form-control-lg {
   position: fixed;
   bottom: 10px;
   right: 10px;
+}
+.copyright .arrow_top .arrow {
+  padding: 15px 18px;
 }
 
 * {
