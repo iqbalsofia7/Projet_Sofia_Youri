@@ -10,27 +10,28 @@
         .card-body
             height: 25%
         img
-            height: 75%
+            height: 100%
         .name_worker
             font-size: 14px
         .worker_position
             font-size: 12px
-            
 
     .card
-        position: relative
         width: 18rem
-        .overlay
-            position: absolute
-            bottom: 20%
-            background-color: white
-            opacity: 0.7
-            overflow: hidden
-            width: 100%
-            height: 0
-            transition: .5s ease
-        .hover_img:hover
-            color: red
+        .overlay_image
+            height: 75%
+            position: relative
+            .overlay
+                position: absolute
+                bottom: 0
+                background-color: white
+                opacity: 0.7
+                overflow: hidden
+                width: 100%
+                height: 0
+                transition: .5s ease
+            .hover_img:hover
+                color: red
     .card:hover .overlay
         height: 10%
 
@@ -42,11 +43,9 @@
         .sec6_cards_media_queries
             align-items: center
             flex-direction: column
-        
+
         .card
-            width: 100%    
-            .overlay
-                top: 68% 
+            width: 100%
 
 .sec6
     @media (min-width: 425px) and (max-width: 767px)
@@ -58,9 +57,7 @@
         flex-direction: column
 
     .card
-            width: 100%    
-            .overlay
-                bottom: 20% 
+        width: 100%
 
 .sec6
     @media (min-width: 768px) and (max-width: 1023px)
@@ -74,9 +71,7 @@
             .card
                 width: 60%
         .card
-            width: 100%    
-            .overlay
-                bottom: 20% 
+            width: 100%
 
 .sec6
     @media (min-width: 1024px) and (max-width: 1439px)
@@ -89,23 +84,16 @@
             flex-direction: row
 
         .card
-            width: 100%    
-            .overlay
-                bottom: 33% 
-            
+            width: 100%
+
 .sec6
     @media (min-width: 1440px)
         .sec6_cards_media_queries
             flex-direction: row
-            
+
         .sec6_top_text_media_queries
             p
                 font-size: 24px
-        
+
         .card
-            width: 100%    
-            .overlay
-                bottom: 23% 
-        
-            
-        
+            width: 100%

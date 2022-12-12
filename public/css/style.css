@@ -23168,7 +23168,7 @@ li {
   height: 25%;
 }
 .sec6 .card img {
-  height: 75%;
+  height: 100%;
 }
 .sec6 .card .name_worker {
   font-size: 14px;
@@ -23177,12 +23177,15 @@ li {
   font-size: 12px;
 }
 .sec6 .card {
-  position: relative;
   width: 18rem;
 }
-.sec6 .card .overlay {
+.sec6 .card .overlay_image {
+  height: 75%;
+  position: relative;
+}
+.sec6 .card .overlay_image .overlay {
   position: absolute;
-  bottom: 20%;
+  bottom: 0;
   background-color: white;
   opacity: 0.7;
   overflow: hidden;
@@ -23190,7 +23193,7 @@ li {
   height: 0;
   transition: 0.5s ease;
 }
-.sec6 .card .hover_img:hover {
+.sec6 .card .overlay_image .hover_img:hover {
   color: red;
 }
 .sec6 .card:hover .overlay {
@@ -23208,9 +23211,6 @@ li {
   .sec6 .card {
     width: 100%;
   }
-  .sec6 .card .overlay {
-    top: 68%;
-  }
 }
 
 @media (min-width: 425px) and (max-width: 767px) {
@@ -23224,9 +23224,6 @@ li {
 }
 .sec6 .card {
   width: 100%;
-}
-.sec6 .card .overlay {
-  bottom: 20%;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -23243,9 +23240,6 @@ li {
   .sec6 .card {
     width: 100%;
   }
-  .sec6 .card .overlay {
-    bottom: 20%;
-  }
 }
 
 @media (min-width: 1024px) and (max-width: 1439px) {
@@ -23259,9 +23253,6 @@ li {
   .sec6 .card {
     width: 100%;
   }
-  .sec6 .card .overlay {
-    bottom: 33%;
-  }
 }
 
 @media (min-width: 1440px) {
@@ -23273,9 +23264,6 @@ li {
   }
   .sec6 .card {
     width: 100%;
-  }
-  .sec6 .card .overlay {
-    bottom: 23%;
   }
 }
 
