@@ -23199,6 +23199,9 @@ textarea.form-control-lg {
     align-items: center;
     flex-direction: row;
   }
+  .sec5 .sec5_cards_media_queries .card {
+    width: 100%;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -23226,7 +23229,7 @@ textarea.form-control-lg {
   height: 25%;
 }
 .sec6 .card img {
-  height: 75%;
+  height: 100%;
 }
 .sec6 .card .name_worker {
   font-size: 14px;
@@ -23235,12 +23238,15 @@ textarea.form-control-lg {
   font-size: 12px;
 }
 .sec6 .card {
-  position: relative;
   width: 18rem;
 }
-.sec6 .card .overlay {
+.sec6 .card .overlay_image {
+  height: 75%;
+  position: relative;
+}
+.sec6 .card .overlay_image .overlay {
   position: absolute;
-  bottom: 20%;
+  bottom: 0%;
   background-color: white;
   opacity: 0.7;
   overflow: hidden;
@@ -23248,7 +23254,7 @@ textarea.form-control-lg {
   height: 0;
   transition: 0.5s ease;
 }
-.sec6 .card .hover_img:hover {
+.sec6 .card .overlay_image .hover_img:hover {
   color: red;
 }
 .sec6 .card:hover .overlay {
@@ -23266,8 +23272,8 @@ textarea.form-control-lg {
   .sec6 .card {
     width: 100%;
   }
-  .sec6 .card .overlay {
-    top: 68%;
+  .sec6 .card .overlay .overlay_image .logo_black {
+    font-size: 20px;
   }
 }
 
@@ -23275,16 +23281,16 @@ textarea.form-control-lg {
   .sec6 .sec6_top_text_media_queries p {
     font-size: 14px;
   }
-}
-.sec6 .sec6_cards_media_queries {
-  align-items: center;
-  flex-direction: column;
-}
-.sec6 .card {
-  width: 100%;
-}
-.sec6 .card .overlay {
-  bottom: 20%;
+  .sec6 .sec6_cards_media_queries {
+    align-items: center;
+    flex-direction: colum;
+  }
+  .sec6 .card {
+    width: 100%;
+  }
+  .sec6 .card .overlay .overlay_image .logo_black {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -23295,14 +23301,8 @@ textarea.form-control-lg {
     align-items: center;
     flex-direction: column;
   }
-  .sec6 .sec6_cards_media_queries .card {
-    width: 60%;
-  }
   .sec6 .card {
-    width: 100%;
-  }
-  .sec6 .card .overlay {
-    bottom: 20%;
+    width: 60%;
   }
 }
 
@@ -23317,9 +23317,6 @@ textarea.form-control-lg {
   .sec6 .card {
     width: 100%;
   }
-  .sec6 .card .overlay {
-    bottom: 33%;
-  }
 }
 
 @media (min-width: 1440px) {
@@ -23331,9 +23328,6 @@ textarea.form-control-lg {
   }
   .sec6 .card {
     width: 100%;
-  }
-  .sec6 .card .overlay {
-    bottom: 23%;
   }
 }
 
@@ -23745,7 +23739,7 @@ textarea.form-control-lg {
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1600px) {
+@media (min-width: 1440px) and (max-width: 1920px) {
   .footer .newsletter .input_button {
     position: absolute;
     align-items: center;
@@ -23757,10 +23751,11 @@ textarea.form-control-lg {
     left: 475px;
     border: none;
     background-color: #E43D5C;
+    width: 300px;
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1500px) {
+@media (min-width: 1440px) and (max-width: 1920px) {
   .copyright {
     display: flex;
     justify-content: space-between;
