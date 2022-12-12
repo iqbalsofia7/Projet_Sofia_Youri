@@ -23111,6 +23111,9 @@ li {
     flex-direction: column;
     width: 100%;
   }
+  .sec5 .sec5_cards_media_queries .card {
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
