@@ -23144,6 +23144,12 @@ li {
   .sec5 .card {
     width: 30rem;
   }
+  .sec5 .card .position h5, .sec5 .card .position .h5 {
+    font-size: 1.6em;
+  }
+  .sec5 .card .position p {
+    font-size: 1.2em;
+  }
 }
 
 .sec6 {
@@ -23681,7 +23687,7 @@ li {
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1600px) {
+@media (min-width: 1440px) and (max-width: 1920px) {
   .footer .newsletter .input_button {
     position: absolute;
     align-items: center;
@@ -23693,10 +23699,11 @@ li {
     left: 475px;
     border: none;
     background-color: #E43D5C;
+    width: 300px;
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1500px) {
+@media (min-width: 1440px) and (max-width: 1920px) {
   .copyright {
     display: flex;
     justify-content: space-between;
